@@ -2,6 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 import matplotlib.pyplot as plt
 
+# hey marius
 
 db_uri = "%s:%s@%s/%s" % (user, password, host, database)
 engine = create_engine(DIALECT + db_uri)
